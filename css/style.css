@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'red hat display',sans-serif;
+  font-size: 16px;
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-color: hsl(225, 100%, 98%);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-size: cover;
+  }
+  
+.card {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  border-radius: 20px 20px;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+.content {
+    padding: 7%;
+    text-align: center;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content p.para {
+    color: #8a8a8a;
+    margin-bottom: 25px;
+}
+
+
+.pricing-box {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.pricing div {
+    margin-left: 20px;
+}
+
+.pricing div h5 {
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.pricing div p {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+.pricing-box a {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  transition: color .3s ease;
+}
+
+.pricing-box a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+
+a.proceed {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  padding: 20px 0;
+  border-radius: 12px;
+  margin: 30px 0;
+  transition: background-color .3s ease;
+  }
+  
+  a.proceed:hover {
+    background-color: hsl(224, 23%, 55%);
+  }
+  
+  a.cancel {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+    transition: color .3s ease;
+  }
+  a.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
